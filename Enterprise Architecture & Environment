@@ -1,0 +1,455 @@
+# Northwind Health Solutions
+
+## Enterprise Architecture & Environment
+
+Version: 1.0
+
+Classification: Internal Use
+
+-----
+
+# Purpose
+
+This document serves as the baseline technical reference for the Northwind Health Solutions cybersecurity portfolio. It defines the organization's business operations, infrastructure, technology environment, users, and security architecture. All projects contained within this portfolio are based upon this environment.
+
+-----
+
+# Organization Overview
+
+Organization Name: Northwind Health Solutions (NHS)
+
+Industry: Healthcare
+
+Headquarters: Columbus, Ohio
+
+Regional Clinics: 6
+
+Employees: Approximately 250
+
+Patients Served: Approximately 55,000 annually
+
+Annual Revenue: Approximately $65 million
+
+Northwind Health Solutions provides:
+
+* Family medicine
+* Internal medicine
+* Pediatrics
+* Telehealth
+* Behavioral health
+* Diagnostic laboratory services
+* Outpatient imaging
+* Physical therapy
+
+The organization stores and processes sensitive information including:
+
+* Protected Health Information (PHI)
+* Personally Identifiable Information (PII)
+* Financial records
+* Insurance claims
+* Employee records
+* Vendor contracts
+* Medical imaging
+* Clinical documentation
+
+-----
+
+# Business Departments
+
+Executive Leadership
+
+* Chief Executive Officer
+* Chief Financial Officer
+* Chief Medical Officer
+* Chief Operations Officer
+
+Clinical Services
+
+* Physicians
+* Nurses
+* Medical Assistants
+* Therapists
+* Laboratory Personnel
+
+Patient Services
+
+* Front Desk
+* Scheduling
+* Medical Records
+
+Revenue Cycle
+
+* Billing
+* Insurance Processing
+* Claims Specialists
+
+Human Resources
+
+Finance
+
+Information Technology
+
+Cybersecurity
+
+Compliance
+
+Facilities Management
+
+Marketing
+
+-----
+
+# Technology Environment
+
+## User Workstations
+
+Approximately 180 Windows 11 Enterprise desktops and laptops.
+
+Used for:
+
+* Electronic Health Records
+* Microsoft Office
+* Email
+* Patient Scheduling
+* Billing
+* Administrative Work
+
+-----
+
+## Mobile Devices
+
+Approximately 60 devices.
+
+Includes:
+
+* Company-issued iPhones
+* Android tablets
+* Clinical tablets
+* Executive laptops
+
+Mobile Device Management (MDM) is implemented.
+
+-----
+
+## Server Infrastructure
+
+### Windows Servers
+
+* Active Directory Domain Controller
+* DNS
+* DHCP
+* File Server
+* Print Server
+* WSUS
+* Group Policy Management
+
+### Linux Servers
+
+* Internal Web Server
+* Application Server
+* Logging Server
+* Monitoring Server
+* Development Server
+
+-----
+
+# Cloud Environment
+
+Amazon Web Services (AWS)
+
+Services utilized include:
+
+* IAM
+* EC2
+* S3
+* CloudTrail
+* CloudWatch
+* Security Groups
+* AWS Backup
+* Key Management Service (KMS)
+
+Cloud resources primarily support:
+
+* Public website
+* Telehealth services
+* Document storage
+* Disaster recovery
+* Offsite backups
+
+-----
+
+# Identity and Access Management
+
+Identity services include:
+
+* Microsoft Active Directory
+* Microsoft Entra ID (Azure AD)
+* Multi-Factor Authentication
+* Role-Based Access Control (RBAC)
+* Least Privilege
+* Single Sign-On (SSO)
+
+Privileged accounts require:
+
+* MFA
+* Administrative approval
+* Quarterly access reviews
+
+-----
+
+# Business Applications
+
+Electronic Health Record (EHR)
+
+Customer Relationship Management (CRM)
+
+Microsoft 365
+
+Microsoft Teams
+
+SharePoint
+
+Accounting Software
+
+Payroll System
+
+Inventory Management
+
+Ticketing System
+
+Remote Access VPN
+
+Security Awareness Platform
+
+-----
+
+# Network Overview
+
+Main Headquarters
+
+* Administrative Offices
+* Data Center
+* Executive Offices
+* IT Department
+
+Six Regional Clinics
+
+Each clinic contains:
+
+* Administrative Network
+* Clinical Network
+* Guest Wi-Fi
+* Medical Device Network
+
+VPN connectivity exists between all locations.
+
+-----
+
+# Network Segmentation
+
+The network is divided into several security zones.
+
+Corporate Network
+
+Clinical Systems Network
+
+Server Network
+
+Management Network
+
+Guest Wireless
+
+Medical Device Network
+
+Cloud Connectivity
+
+VPN Zone
+
+Administrative traffic is isolated from patient-facing systems.
+
+Guest wireless networks have no access to internal resources.
+
+Medical devices operate within dedicated network segments.
+
+-----
+
+# Core Security Technologies
+
+Enterprise Firewall
+
+Endpoint Detection and Response (EDR)
+
+Endpoint Antivirus
+
+Email Security Gateway
+
+VPN
+
+Security Information and Event Management (SIEM)
+
+Intrusion Detection System (IDS)
+
+Intrusion Prevention System (IPS)
+
+DNS Filtering
+
+Web Filtering
+
+Data Loss Prevention (DLP)
+
+Email Encryption
+
+Disk Encryption
+
+Password Manager
+
+Vulnerability Scanner
+
+Asset Inventory Platform
+
+-----
+
+# Data Classification
+
+Northwind Health Solutions classifies data into four levels.
+
+## Public
+
+Information approved for public release.
+
+Examples:
+
+* Marketing materials
+* Public website
+
+-----
+
+## Internal
+
+Routine internal business information.
+
+Examples:
+
+* Internal procedures
+* Staff communications
+
+-----
+
+## Confidential
+
+Business-sensitive information.
+
+Examples:
+
+* Financial reports
+* Vendor contracts
+* Employee information
+
+-----
+
+## Restricted
+
+Highly sensitive information requiring the highest level of protection.
+
+Examples:
+
+* PHI
+* PII
+* Medical records
+* Payment information
+* Authentication secrets
+
+-----
+
+# Security Policies
+
+The organization maintains policies covering:
+
+* Acceptable Use
+* Password Requirements
+* Access Control
+* Remote Work
+* Mobile Devices
+* Incident Response
+* Data Classification
+* Vendor Management
+* Backup and Recovery
+* Change Management
+* Business Continuity
+
+-----
+
+# Regulatory Environment
+
+The organization aligns its security program with:
+
+* HIPAA
+* NIST Cybersecurity Framework (CSF)
+* NIST Risk Management Framework (RMF)
+* CIS Critical Security Controls
+* OWASP Security Principles
+
+-----
+
+# Threat Landscape
+
+Primary threats identified by Northwind Health Solutions include:
+
+* Phishing attacks
+* Ransomware
+* Credential theft
+* Insider threats
+* Third-party compromise
+* Business Email Compromise (BEC)
+* Cloud misconfiguration
+* Data leakage
+* Vulnerability exploitation
+* Supply chain attacks
+
+-----
+
+# Security Program Objectives
+
+The cybersecurity program has established the following objectives:
+
+1. Protect patient information.
+
+2. Maintain regulatory compliance.
+
+3. Reduce enterprise risk.
+
+4. Strengthen identity and access management.
+
+5. Improve vulnerability management.
+
+6. Increase visibility into security events.
+
+7. Develop repeatable governance processes.
+
+8. Improve employee cybersecurity awareness.
+
+9. Enhance cloud security.
+
+10. Continuously improve security maturity through risk-based decision making.
+
+-----
+
+# Portfolio Assumptions
+
+The projects contained within this repository simulate the ongoing work of an internal cybersecurity analyst supporting Northwind Health Solutions.
+
+Individual projects represent realistic activities such as:
+
+* Incident investigations
+* Risk assessments
+* Vulnerability management
+* SQL-based security analysis
+* Linux security administration
+* Identity and access reviews
+* Cloud security implementation
+* Policy development
+* Framework assessments
+* Security metrics reporting
+* Automation of security tasks
+
+Although Northwind Health Solutions is fictional, the technologies, security concepts, frameworks, and methodologies used throughout this portfolio reflect practices commonly found in modern healthcare organizations.
