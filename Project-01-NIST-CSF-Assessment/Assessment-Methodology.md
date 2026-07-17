@@ -10,7 +10,7 @@ Framework: NIST Cybersecurity Framework (CSF) 2.0
 
 Assessment Type: Internal Cybersecurity Maturity Assessment
 
-Assessment Owner: Carmelo Morgan
+Assessing Official: Carmelo Morgan
 
 -----
 
