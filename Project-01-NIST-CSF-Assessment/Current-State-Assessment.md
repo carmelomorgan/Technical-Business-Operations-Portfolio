@@ -8,7 +8,7 @@ Project Number: NHS-CSF-001
 
 Framework: NIST Cybersecurity Framework (CSF) 2.0
 
-Assessment Owner: Carmelo Morgan
+Assessing Official: Carmelo Morgan
 
 Assessment Status: Completed
 
