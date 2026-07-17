@@ -1,0 +1,11 @@
+| Asset                  | Quantity | Criticality |
+| ---------------------- | -------- | ----------- |
+| Windows Workstations   | 180      | High        |
+| Windows Servers        | 6        | Critical    |
+| Linux Servers          | 5        | High        |
+| AWS EC2                | 3        | High        |
+| AWS S3 Buckets         | 4        | Critical    |
+| Microsoft 365 Accounts | 250      | Critical    |
+| Medical Devices        | 120      | Critical    |
+| Firewalls              | 2        | Critical    |
+| VPN Appliances         | 2        | High        |
