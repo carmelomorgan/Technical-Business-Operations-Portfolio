@@ -1,0 +1,31 @@
+                     Internet
+                        │
+              Next-Generation Firewall
+                        │
+        ┌───────────────┴────────────────┐
+        │                                │
+   Headquarters                       AWS Cloud
+        │                                │
+ ┌──────┴────────┐              ┌─────────┴─────────┐
+ │               │              │                   │
+AD Server     File Server     EC2 Web App       S3 Storage
+ │               │                  │               │
+DNS            SIEM             CloudTrail      AWS Backup
+ │
+VPN Gateway
+ │
+──────────────────────────────────────────────────────
+                        │
+                        ├──── Clinic A
+                        ├──── Clinic B
+                        ├──── Clinic C
+                        ├──── Clinic D
+                        ├──── Clinic E
+                        └──── Clinic F
+
+Each Clinic
+────────────
+• Windows Workstations
+• Medical Devices
+• Guest Wi-Fi
+• Secure VPN Tunnel
