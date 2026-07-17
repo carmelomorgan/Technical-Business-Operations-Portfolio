@@ -1,6 +1,6 @@
 # Northwind Health Solutions Cybersecurity Portfolio
 
-# Overview
+## Overview
 
 Welcome to the Northwind Health Solutions Cybersecurity Portfolio.
 
@@ -10,7 +10,7 @@ Each project builds upon the previous one, aiming to create a realistic represen
 
 -----
 
-# Company Background
+## Company Background
 
 Northwind Health Solutions (NHS) is a fictional regional healthcare provider headquartered somewhere in the United States. The organization operates multiple outpatient clinics and provides primary care, telehealth services, laboratory testing, and specialty medical services to patients throughout its region.
 
@@ -20,7 +20,7 @@ Northwind Health Solutions manages protected health information (PHI), personall
 
 -----
 
-# Technology Environment
+## Technology Environment
 
 The fictional environment consists of a modern hybrid infrastructure that includes:
 
@@ -39,7 +39,7 @@ This environment will provide a realistic foundation for demonstrating common cy
 
 -----
 
-# Security Objectives
+## Security Objectives
 
 Northwind Health Solutions has established several strategic security objectives:
 
@@ -54,7 +54,7 @@ Northwind Health Solutions has established several strategic security objectives
 
 -----
 
-# Portfolio Goals
+## Portfolio Goals
 
 The purpose of this portfolio is to demonstrate practical skills across multiple cybersecurity domains, including:
 
@@ -73,11 +73,11 @@ The purpose of this portfolio is to demonstrate practical skills across multiple
 
 -----
 
-# Repository Structure
+## Repository Structure
 
 This portfolio is organized into twelve projects that collectively represent the development and continuous improvement of Northwind Health Solutions' cybersecurity program.
 
-# Phase I – Security Operations and Risk Foundations
+### Phase I – Security Operations and Risk Foundations
 
 1. Enterprise Security Incident Report
 2. SQL Security Investigation
@@ -87,7 +87,7 @@ This portfolio is organized into twelve projects that collectively represent the
 6. Enterprise Risk Register
 7. Linux Hardening Assessment
 
-# Phase II – Security Program Development
+### Phase II – Security Program Development
 
 8. NIST Cybersecurity Framework Assessment
 9. Enterprise Security Policy Library
@@ -99,7 +99,7 @@ Each project will include documentation describing the business scenario, method
 
 -----
 
-# Scope
+## Scope
 
 The projects contained within this repository are intended for educational and professional portfolio purposes only.
 
@@ -113,7 +113,7 @@ While Northwind Health Solutions is fictional, the security principles, industry
 
 -----
 
-# Purpose of This Portfolio
+## Purpose of This Portfolio
 
 This repository demonstrates not only technical cybersecurity knowledge but also the ability to think strategically about organizational security.
 
