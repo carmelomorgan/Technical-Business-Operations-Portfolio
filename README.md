@@ -99,6 +99,22 @@ Each project will include documentation describing the business scenario, method
 
 -----
 
+## Enterprise Documentation
+
+Every project within this portfolio is built around the fictional organization **Northwind Health Solutions**. The following documents establish the technical, operational, and security baseline used throughout the repository.
+
+| Document | Description |
+|----------|-------------|
+| Enterprise Architecture | Overview of the organization, departments, infrastructure, and security environment. |
+| Enterprise Network Diagram | Visual representation of the corporate and cloud infrastructure. |
+| Asset Inventory | Inventory of critical hardware, software, cloud resources, and information assets. |
+| Technology Stack | Summary of technologies, operating systems, cloud platforms, and security tools. |
+| Security Baseline | Organization-wide security standards, control requirements, and configuration baselines. |
+
+These documents provide the foundation for all portfolio projects and ensure that each assessment, investigation, and recommendation is performed within a consistent enterprise environment.
+
+-----
+
 ## Scope
 
 The projects contained within this repository are intended for educational and professional portfolio purposes only.
