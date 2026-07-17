@@ -1,0 +1,24 @@
+## Password Policy
+
+- Minimum 14 characters
+- MFA required
+- Password Manager Required
+
+## Logging
+
+- 365-day retention
+- SIEM ingestion
+- CloudTrail enabled
+
+## Access Control
+
+- Least Privilege
+- RBAC
+- Quarterly Reviews
+
+## Vulnerability Management
+
+- Critical: 7 days
+- High: 30 days
+- Medium: 90 days
+- Low: As scheduled
