@@ -136,5 +136,3 @@ This repository demonstrates not only technical cybersecurity knowledge but also
 Rather than focusing exclusively on individual technologies or tools, these projects emphasize how technical controls, governance, risk management, documentation, and communication work together to support an organization's security objectives.
 
 The portfolio reflects the type of work performed by entry-level cybersecurity professionals supporting enterprise security programs and highlights practical skills that are transferable across a variety of cybersecurity, IT, and risk management roles.
-
-print(17 % 5)
